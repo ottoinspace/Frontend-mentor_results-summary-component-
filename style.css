@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+
+  .main_body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    margin: auto;
+  }
+
+  .result{
+    background-color: hsl(252, 100%, 67%);
+    background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  }
+
+  .result .container{
+    text-align: center;
+  }
+
+  .result .container h2{
+    font-weight: 500px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.656);
+  }
+
+  .result .container h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .result .container span{
+    font-weight: 500;
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, 0.624);
+  }
+
+  .div-circle{
+    background-image: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .div-circle .content{
+    text-align: center;
+  }
+
+  .div-circle .content h1{
+    font-weight: 800;
+    font-size: 54px;
+    margin: 0px;
+    color: white;
+  }
+
+  .div-circle .content span{
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.551);
+  }
+
+  .summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 250px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10%;
+  }
+
+  .summary .container{
+    text-align: left;
+  }
+
+  .summary .container h1{
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    padding: 12px;
+    width: 230px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6px;
+  }
+  
+  .reaction .container {
+    align-self: flex-start;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 95px;
+  }
+
+  .reaction .container span{
+    color: hsla(0, 100%, 67%, 1);
+    font-weight: 600;
+  }
+
+  .reaction .rigth-element {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .reaction .rigth-element .point {
+    color: hsl(224, 30%, 27%);
+    font-weight: 600;
+  }
+
+  .reaction .rigth-element .l-point {
+    color: hsla(224, 30%, 27%, 0.593);
+    font-weight: 600;
+  }
+
+  .memory {
+    background-color: hsl(39, 100%, 56%, 0.1);
+    padding: 12px;
+    width: 230px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6px;
+  }
+  
+  .memory .container {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95px;
+  }
+
+  .memory .container span{
+    color: hsl(39, 100%, 56%);
+    font-weight: 600;
+  }
+
+  .memory .rigth-element {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .memory .rigth-element .point {
+    color: hsl(224, 30%, 27%);
+    font-weight: 600;
+  }
+
+  .memory .rigth-element .l-point {
+    color: hsla(224, 30%, 27%, 0.593);
+    font-weight: 600;
+  }
+
+  .verbal {
+    background-color: hsl(166, 100%, 37%, 0.1);
+    padding: 12px;
+    width: 230px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6px;
+  }
+  
+  .verbal .container {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+  }
+
+  .verbal .container span{
+    color: hsl(166, 100%, 37%);
+    font-weight: 600;
+  }
+
+  .verbal .rigth-element {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .verbal .rigth-element .point {
+    color: hsl(224, 30%, 27%);
+    font-weight: 600;
+  }
+
+  .verbal .rigth-element .l-point {
+    color: hsla(224, 30%, 27%, 0.593);
+    font-weight: 600;
+  }
+
+  .visual {
+    background-color: hsl(234, 85%, 45%, 0.1);
+    padding: 12px;
+    width: 230px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6px;
+  }
+  
+  .visual .container {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+  }
+
+  .visual .container span{
+    color: hsl(234, 85%, 45%);
+    font-weight: 600;
+  }
+
+  .visual .rigth-element {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .visual .rigth-element .point {
+    color: hsl(224, 30%, 27%);
+    font-weight: 600;
+  }
+
+  .visual .rigth-element .l-point {
+    color: hsla(224, 30%, 27%, 0.593);
+    font-weight: 600;
+  }
+
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 50px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    background-color: hsl(252, 100%, 67%);
+    background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%)); 
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+
+  .button:hover{
+    background-color: hsl(224, 30%, 27%);
+    background-image: none;
+  }
+
+  footer{
+    padding: 5px;
+  }
+
+  /* I use 2000px because is the widht of my laptop*/
+@media screen and (max-width: 2000px){
+    .main_body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 660px;
+      box-shadow: 20px 20px 50px 0px hsl(221, 100%, 96%);
+      border-radius: 40px;
+    }
+
+    .result {
+      padding: 40px;
+      border-radius: 40px;
+    }
+
+    .div-circle {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 375px){
+  .main_body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   }
+  
+  .result {
+    padding: 16px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin-bottom: 16px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px 0px 40px 40px;
+  }
+
+  .div-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+
+  .summary {
+    position: absolute;
+    margin-top: 10px;
+    padding: 16px;
+    left: auto;
+    top: 307px;
+    width: 375px;
+  }
+}
